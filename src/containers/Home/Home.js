@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import Header from './components/Header.js';
-import Content from './components/Content.js';
-// import './Home.less';
-import './Home.scss';
+import HomeTitle from './components/HomeTitle';
+import Section from './components/Section';
+import webJson from './webData.json';
+import './Home.sass';
 
 export default class Home extends Component {
   render() {
     return (
       <div id="pageHome">
-        <Header />
-        <Content />
+        <HomeTitle />
+        <Section title="小遊戲" dataList={webJson.games} />
+        <Section />
+        <Section />
+        <Section />
       </div>
     );
   }
