@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import Card from './Card';
 
-export default class Section extends React.Component {
+export default class Section extends Component {
   static propTypes = {
     title: PropTypes.string,
     id: PropTypes.string,
