@@ -9,10 +9,16 @@ export default class Home extends Component {
     return (
       <div id="pageHome">
         <HomeTitle />
-        <Section title="小遊戲" dataList={webJson.games} />
-        <Section />
-        <Section />
-        <Section />
+        {
+          webJson.map(sectionData =>
+            <Section
+              key={sectionData.key}
+              title={sectionData.title}
+              dataList={sectionData.dataList}
+              id={sectionData.key}
+            />
+          )
+        }
       </div>
     );
   }

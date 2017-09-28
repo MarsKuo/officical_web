@@ -1,14 +1,59 @@
-{
-  "challenge": [],
-  "game": [
-    {
-      "key": "react_challenge_1to50",
-      "title": "1 to 50",
-      "description": "react JS 製作1 to 50遊戲",
-      "img": "https://i.imgur.com/jdMHS9t.gif",
-      "demoUrl": "http://reactmaker.github.io/react_challenge_1to50",
-      "repoUrl": "https://github.com/ReactMaker/react_challenge_1to50"
-    }
-  ],
-  "youtube": []
-}
+[
+  {
+    "key": "game",
+    "title": "小遊戲",
+    "dataList": [
+      {
+        "challenge": [],
+        "game": [
+          {
+            "key": "react_challenge_1to50",
+            "game": "1 to 50",
+            "description": "react JS 製作1 to 50遊戲",
+            "img": "https://i.imgur.com/jdMHS9t.gif",
+            "demoUrl": "http://reactmaker.github.io/react_challenge_1to50",
+            "repoUrl": "https://github.com/ReactMaker/react_challenge_1to50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "live",
+    "title": "直播影片",
+    "dataList": [
+      {
+        "challenge": [],
+        "game": [
+          {
+            "key": "react_challenge_1to50",
+            "game": "1 to 50",
+            "description": "react JS 製作1 to 50遊戲",
+            "img": "https://i.imgur.com/jdMHS9t.gif",
+            "demoUrl": "http://reactmaker.github.io/react_challenge_1to50",
+            "repoUrl": "https://github.com/ReactMaker/react_challenge_1to50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "js30day",
+    "title": "JS 30 Day",
+    "dataList": [
+      {
+        "challenge": [],
+        "game": [
+          {
+            "key": "react_challenge_1to50",
+            "game": "1 to 50",
+            "description": "react JS 製作1 to 50遊戲",
+            "img": "https://i.imgur.com/jdMHS9t.gif",
+            "demoUrl": "http://reactmaker.github.io/react_challenge_1to50",
+            "repoUrl": "https://github.com/ReactMaker/react_challenge_1to50"
+          }
+        ]
+      }
+    ]
+  }
+]
